@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	app, err := firecrawl.NewFirecrawlApp("fc-YOUR_API_KEY", "https://api.firecrawl.dev", "v1")
+	app, err := firecrawl.NewFirecrawlApp("fc-YOUR_API_KEY", "https://api.firecrawl.dev", "v0")
 	if err != nil {
 		log.Fatalf("Failed to create FirecrawlApp: %v", err)
 	}
